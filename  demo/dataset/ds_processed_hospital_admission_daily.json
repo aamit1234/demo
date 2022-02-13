@@ -1,5 +1,5 @@
 {
-	"name": "ds_population_raw_tsv",
+	"name": "ds_processed_hospital_admission_daily",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "is_adls_covidreportingdl",
@@ -10,11 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "populatio_by_age_tsv",
-				"folderPath": "population",
-				"fileSystem": "raw"
+				"folderPath": "ecdc/hospital_admission_daily",
+				"fileSystem": "processed"
 			},
-			"columnDelimiter": "\t",
+			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
