@@ -13,6 +13,9 @@
 		},
 		"is_adls_covidreportingdl_properties_typeProperties_url": {
 			"value": "https://amitdemo1234storage.dfs.core.windows.net"
+		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/4c1c6033-2481-415e-8510-0b2b20aad1f1/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/amitdemo1234"
 		}
 	}
 }
