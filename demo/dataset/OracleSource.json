@@ -1,0 +1,16 @@
+{
+	"name": "OracleSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OracledbLinked",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "HR",
+			"table": "EMPLOYEES"
+		}
+	}
+}
